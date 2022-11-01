@@ -1,0 +1,15 @@
+div p {
+    color: blue;
+}
+
+div > p {
+    color: red;
+}
+
+div ~ p {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+div + p {
+    font-size: xx-small;
+}
