@@ -1,0 +1,73 @@
+html {
+    background-color: blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    width: 80%;
+   
+    background-color: red;
+    border: groove 20px;
+    height:max-content;
+}
+
+div,p,h1 {
+    color: white;
+    width:max-content ;
+    border: 10px groove white;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+h1 {
+    color: yellowgreen;
+    font-style: italic;
+    font-weight:bolder;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    font-size: 5rem;
+    border: 5px solid black;
+    line-height: 200px;
+}
+/*elementclass is 10
+ */
+.elementclass {
+    color: black;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/*elementid is 100 specifity*/
+
+#elementid {
+    color: yellowgreen;
+
+}
+
+div p   {
+    background-color: green;
+}
+
+div > h1  {
+    background-color:purple
+}
+
+h1:first-letter  {
+    color: black;
+}
+
+div div{
+    text-decoration: underline;
+}
+
+p:hover {
+    color:pink
+}
+
+h1:hover {
+    color:pink
+}
