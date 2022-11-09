@@ -1,0 +1,48 @@
+p {
+    font-size: 30px;
+    font-family:serif;
+}
+
+div {
+    font-size: 30px;
+    font-family:sans-serif;
+}
+
+.googlefontnormal {
+    font-family: 'Lobster Two', ;
+}
+
+.googlefontbold {
+    font-family: 'Lobster Two', ;
+    font-weight: 700;
+}
+
+.transform {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.shortphrasespacing {
+    letter-spacing: 2.5px;
+}
+
+h1  {
+    text-shadow: 2px 3px 2px orange;
+}
+
+a   {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2  {
+    text-decoration: line-through;
+}
+
+p  {
+    text-indent: 40px;
+}
